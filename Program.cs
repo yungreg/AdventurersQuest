@@ -15,7 +15,7 @@ namespace Quest
             //   a correct answer
             //   a number of awesome points to gain or lose depending on the success of the challenge
 
-            //Phase 2: 
+            //*Phase 2: 
             // todo get user name
             // todo: send it to adventurer constructor's Name Fielkd
             Console.WriteLine("Before we begin, enter your name:");
@@ -84,6 +84,25 @@ namespace Quest
             else
             {
                 Console.WriteLine("I guess you did...ok? ...sorta. Still, you should get out of my sight.");
+            }
+
+            //*Phase3
+            // create a prompt to let teh usrr repeast teh gamne. repeat if y, terminate if n. 
+            Console.WriteLine("Would you like to play again?");
+            Console.WriteLine("answer: y / n ");
+            string gameRepeat = Console.ReadLine().ToLower();
+
+            if (gameRepeat == "y")
+            {
+                Adventurer newAdventurer = new Adventurer($"{userAnswer}");
+                foreach (Challenge challenge in challenges)
+                {
+                    challenge.RunChallenge(newAdventurer);
+                }
+            }
+            else
+            {
+                ;
             }
         }
     }
