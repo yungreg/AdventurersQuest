@@ -1,0 +1,16 @@
+C:\Users\rlumr\workspace\csharp\book-1\AdventurersQuest\bin\Debug\net5.0\AdventurersQuest.exe
+C:\Users\rlumr\workspace\csharp\book-1\AdventurersQuest\bin\Debug\net5.0\AdventurersQuest.deps.json
+C:\Users\rlumr\workspace\csharp\book-1\AdventurersQuest\bin\Debug\net5.0\AdventurersQuest.runtimeconfig.json
+C:\Users\rlumr\workspace\csharp\book-1\AdventurersQuest\bin\Debug\net5.0\AdventurersQuest.runtimeconfig.dev.json
+C:\Users\rlumr\workspace\csharp\book-1\AdventurersQuest\bin\Debug\net5.0\AdventurersQuest.dll
+C:\Users\rlumr\workspace\csharp\book-1\AdventurersQuest\bin\Debug\net5.0\ref\AdventurersQuest.dll
+C:\Users\rlumr\workspace\csharp\book-1\AdventurersQuest\bin\Debug\net5.0\AdventurersQuest.pdb
+C:\Users\rlumr\workspace\csharp\book-1\AdventurersQuest\obj\Debug\net5.0\AdventurersQuest.csproj.AssemblyReference.cache
+C:\Users\rlumr\workspace\csharp\book-1\AdventurersQuest\obj\Debug\net5.0\AdventurersQuest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rlumr\workspace\csharp\book-1\AdventurersQuest\obj\Debug\net5.0\AdventurersQuest.AssemblyInfoInputs.cache
+C:\Users\rlumr\workspace\csharp\book-1\AdventurersQuest\obj\Debug\net5.0\AdventurersQuest.AssemblyInfo.cs
+C:\Users\rlumr\workspace\csharp\book-1\AdventurersQuest\obj\Debug\net5.0\AdventurersQuest.csproj.CoreCompileInputs.cache
+C:\Users\rlumr\workspace\csharp\book-1\AdventurersQuest\obj\Debug\net5.0\AdventurersQuest.dll
+C:\Users\rlumr\workspace\csharp\book-1\AdventurersQuest\obj\Debug\net5.0\ref\AdventurersQuest.dll
+C:\Users\rlumr\workspace\csharp\book-1\AdventurersQuest\obj\Debug\net5.0\AdventurersQuest.pdb
+C:\Users\rlumr\workspace\csharp\book-1\AdventurersQuest\obj\Debug\net5.0\AdventurersQuest.genruntimeconfig.cache
