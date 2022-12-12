@@ -8,6 +8,9 @@ namespace Quest
         // Note: the constructor is defined below.
         public string Name { get; }
 
+        //*Phase4 part5
+        public Robe ColorfulRobe { get; }
+
         // This is a mutable property it has a "get" and a "set"
         //  So it can be read and changed by any code in the application
         public int Awesomeness { get; set; }
@@ -18,8 +21,18 @@ namespace Quest
             Name = name;
             Awesomeness = 50;
         }
+        //phase 4 part6: new constructor to set robe color
+        public void ColorFulRobe(Robe Robe)
+        {
+            Robe RobeColor = ColorfulRobe;
+        }
 
+        //*phase 4 part 7: make new method: 
+        public string GetDescription()
+        {
 
+            return $"Nice to meet you {Name}! Your cape is {ColorfulRobe.RobeColor}, and {ColorfulRobe.RobeLength} inches long!";
+        }
         // This method returns a string that describes the Adventurer's status
         // Note one way to describe what this method does is:
         //   it transforms the Awesomeness integer into a status string
@@ -45,5 +58,6 @@ namespace Quest
 
             return $"Adventurer, {Name}, is {status}";
         }
+
     }
 }

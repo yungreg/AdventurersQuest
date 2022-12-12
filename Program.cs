@@ -21,6 +21,14 @@ namespace Quest
             Console.WriteLine("Before we begin, enter your name:");
             string userAnswer = Console.ReadLine();
 
+            Adventurer theAdventurer = new Adventurer($"{userAnswer}");
+
+            Robe RedRobe = new Robe("Red", 26);
+
+
+            Console.WriteLine(theAdventurer.GetDescription());
+
+
             Challenge twoPlusTwo = new Challenge("2 + 2?", 4, 10);
             Challenge theAnswer = new Challenge(
                 "What's the answer to life, the universe and everything?", 42, 25);
@@ -49,10 +57,9 @@ namespace Quest
             int minAwesomeness = 0;
             int maxAwesomeness = 100;
 
+            //Make a new Robe class!
+
             // Make a new "Adventurer" object using the "Adventurer" class
-
-
-            Adventurer theAdventurer = new Adventurer($"{userAnswer}");
 
             // A list of challenges for the Adventurer to complete
             // Note we can use the List class here because have the line "using System.Collections.Generic;" at the top of the file.
